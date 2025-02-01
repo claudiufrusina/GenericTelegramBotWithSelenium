@@ -4,6 +4,10 @@
 
 This project includes several Python scripts for interacting with the Telegram Bot API, automating browser actions using Selenium, and taking screenshots.
 
+## Example of result in your Telegram chat bot
+
+![Chat bot example](.\utility\images\example.png)
+
 ## Installation
 
 To install the required dependencies, run the following command:
@@ -70,10 +74,6 @@ python -m venv venv
 
 To deactivate the virtual environment, simply run:
 deactivate
-
-## Example of result in your Telegram chat bot
-
-![alt text](utility\images\example.png)
 
 ## License
 
