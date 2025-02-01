@@ -1,0 +1,7 @@
+python-dotenv
+requests
+selenium
+pillow
+python-telegram-bot
+pyautogui
+webdriver-manager

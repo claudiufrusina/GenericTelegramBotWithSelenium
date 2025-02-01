@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  telegram_bot:
+    build: .
+    container_name: telegram_bot
+    environment:
+      - TELEGRAM_API_TOKEN=${TELEGRAM_API_TOKEN}
+      - USER=${USER}
+      - PASSWORD=${PASSWORD}
+    volumes:
+      - .:/app
+    command: python /app/GenericTelegramBotWithSelenium/telegram_bot_conn.py
+    depends_on:
+      - selenium
+
+  selenium:
+    image: selenium/standalone-chrome:latest
+    container_name: selenium
+    ports:
+      - "4444:4444"
+    shm_size: 2g
