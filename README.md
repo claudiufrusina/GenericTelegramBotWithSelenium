@@ -1,4 +1,4 @@
-# MSC Family Find cruises with selenium & telegram
+# Cruises Find project with selenium & telegram
 
 ## Overview
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 This script checks the Telegram API endpoint.
 
 ```sh
-python check_api_endpoint.py
+python telegram_bot_conn.py
 ```
 
 ### 🌐 check_infra.py
@@ -70,6 +70,10 @@ python -m venv venv
 
 To deactivate the virtual environment, simply run:
 deactivate
+
+## Example of result in your Telegram chat bot
+
+![alt text](utility\images\example.png)
 
 ## License
 
