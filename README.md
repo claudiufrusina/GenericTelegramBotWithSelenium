@@ -6,7 +6,7 @@ This project includes several Python scripts for interacting with the Telegram B
 
 ## Example of result in your Telegram chat bot
 
-![Chat bot example](.\utility\images\example.png)
+![Chat bot example](https://github.com/claudiufrusina/GenericTelegramBotWithSelenium\utility\images\example.png)
 
 ## Installation
 
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Project Structure
 
-- 📄 **.env**: Contains environment variables such as `TELEGRAM_API_TOKEN` and `CHAT_ID`.
+- 📄 **.env**: Contains environment variables such as `TELEGRAM_API_TOKEN`, `USER` & `PASSWORD`.
 - 📝 **check_api_endpoint.py**: Script to check the Telegram API endpoint.
 - 🌐 **check_infra.py**: Script to check network connectivity and send a test message via Telegram.
 - 🔍 **find_telegram_chatId.py**: Script to find and print the Telegram chat ID.
@@ -29,9 +29,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-### 📝 check_api_endpoint.py
+### 🤖 telegram_bot_conn.py
 
-This script checks the Telegram API endpoint.
+This script is the main to interface with the Telegram API endpoint.
 
 ```sh
 python telegram_bot_conn.py
@@ -48,10 +48,6 @@ This script finds and prints the Telegram chat ID.
 ### 🖥️ script_selenium.py
 
 This script automates browser actions and takes screenshots using Selenium.
-
-### 🤖 telegram_bot_conn.py
-
-This script sends a screenshot to a Telegram bot.
 
 ## Environment Variables
 
@@ -71,7 +67,7 @@ python -m venv venv
     .venv\Scripts\activate
 - On macOS and Linux:
     source venv/bin/activate
-
+```
 To deactivate the virtual environment, simply run:
 deactivate
 
