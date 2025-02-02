@@ -6,7 +6,7 @@ This project includes several Python scripts for interacting with the Telegram B
 
 ## Example of result in your Telegram chat bot
 
-![Chat bot example](https://github.com/claudiufrusina/GenericTelegramBotWithSelenium\utility\images\example.png)
+![Chat bot example](https://github.com/claudiufrusina/GenericTelegramBotWithSelenium/blob/main/utility/images/example.png)
 
 ## Installation
 
